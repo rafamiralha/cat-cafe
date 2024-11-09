@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="pt-br">
       <body>
         <Header />
+        
         {children}
+
         <Footer />
       </body>
     </html>
