@@ -9,7 +9,7 @@ export default function VideoBackground() {
                     Seu navegador não suporta a tag de vídeo.
                 </video>
 
-                <div className="relative p-56 z-20 text-4xl text-my-white">
+                <div className=" flex absolute justify-center w-full h-full z-20 text-6xl items-center text-my-white">
                     <h1>Bem-vindo ao Meu café Virtual</h1>
                 </div>
             </div>
