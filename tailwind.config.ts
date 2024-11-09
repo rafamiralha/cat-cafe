@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "my-white":"#f5f4f2",
+        "my-milk-color":"#baa88d"
       },
     },
   },

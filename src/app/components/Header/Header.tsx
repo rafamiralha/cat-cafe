@@ -1,9 +1,25 @@
 export default function Header() {
-    return (
-     <header>
-        <div className="border-l-amber-300 w-full h-10 p-5 bg-black text-white "> Header</div>
-     </header>
-          
-     
-    );
-  }
+   return (
+      <header>
+         <div className="w-full h-16 bg-my-milk-color text-my-white text-lg ">
+            
+            <ul className="flex flex-row gap-2 justify-center items-center p-5">
+               <li>
+               Home
+               </li>
+               <li>
+               Cardapio
+               </li>
+               <li>
+               Café
+               </li>
+               <li>
+               Sobremesa
+               </li>
+            </ul>
+         </div>
+      </header>
+
+
+   );
+}
