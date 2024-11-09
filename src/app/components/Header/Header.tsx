@@ -8,16 +8,16 @@ export default function Header() {
             <div><Image src={catIcon} alt="A cat's Icon" className="mx-3 mt-2 " width={50}
                height={50}></Image></div>
             <ul className="flex flex-row gap-10 justify-center items-center ">
-               <li>
+               <li className="hover:underline">
                   Home
                </li>
-               <li>
+               <li className="hover:underline">
                   Cardapio
                </li>
-               <li>
+               <li className="hover:underline">
                   Café
                </li>
-               <li>
+               <li className="hover:underline">
                   Sobremesa
                </li>
             </ul>
