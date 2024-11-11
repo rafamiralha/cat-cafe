@@ -4,7 +4,7 @@ import catIcon from "@/app/assets/cat-icon image.png"
 export default function Header() {
    return (
       <header>
-         <div className="w-full h-36 bg-my-milk-color text-gray-700 text-lg flex justify-center gap-80 font-bold">
+         <div className="w-full h-36 bg-my-milk-color text-gray-700 text-2xl flex justify-center gap-80 font-bold ">
             <div className="flex justify-center items-center"><Image src={catIcon} alt="A cat's Icon" className="mx-3 mt-2 " width={50}
                height={50}></Image>
             </div>
