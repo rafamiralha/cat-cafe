@@ -1,5 +1,6 @@
 import Image from "next/image";
 import catIcon from "@/app/assets/cat-icon image.png"
+import Link from "next/link";
 
 export default function Header() {
    return (
@@ -11,16 +12,20 @@ export default function Header() {
             <ul className="flex flex-row gap-10 justify-center items-center ">
                {/*"este código abaixo funciona com o passar do mouse"*/}
                <li className="transition duration-500 ease-in-out transform hover:-translate-y-0.5 ">
-                  Home
+                  <Link href="/">
+                     Home
+                  </Link>
                </li>
                <li className="transition duration-500 ease-in-out transform hover:-translate-y-0.5 ">
-                  Cardapio
+                  <Link href="/cardapio">
+                     Cardapio
+                  </Link>
                </li>
                <li className="transition duration-500 ease-in-out transform hover:-translate-y-0.5">
-                  Café
+                  <button>Bebidas</button>
                </li>
                <li className="transition duration-500 ease-in-out transform hover:-translate-y-0.5">
-                  Sobremesa
+                  <button>Sobremesas</button>
                </li>
             </ul>
          </div>
